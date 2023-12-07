@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page1",
+    "pageId": "Nutritionist",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -61,7 +61,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Page1_Api1",
+  "id": "Nutritionist_Api1",
   "deleted": false,
   "gitSyncId": "657127f0ec1bd972dbf9c78a_65724bd956d4b3780f9284dc"
 }
