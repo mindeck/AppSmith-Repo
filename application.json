@@ -3,6 +3,10 @@
     {
       "id": "Gym Manager",
       "isDefault": true
+    },
+    {
+      "id": "Fitness Trainer",
+      "isDefault": false
     }
   ],
   "viewMode": false,
