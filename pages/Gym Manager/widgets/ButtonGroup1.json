@@ -9,8 +9,8 @@
         "click",
         "submit"
     ],
-    "topRow": 45,
-    "bottomRow": 49,
+    "topRow": 40,
+    "bottomRow": 44,
     "parentRowSpace": 10,
     "type": "BUTTON_GROUP_WIDGET",
     "groupButtons": {
@@ -123,9 +123,9 @@
     "mobileTopRow": 75,
     "responsiveBehavior": "fill",
     "childStylesheet": {"button": {"buttonColor": "{{appsmith.theme.colors.primaryColor}}"}},
-    "originalTopRow": 45,
+    "originalTopRow": 41,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 6,
-    "originalBottomRow": 49,
+    "originalBottomRow": 45,
     "buttonVariant": "PRIMARY"
 }
