@@ -10,32 +10,20 @@
         "visuals",
         "visualisations"
     ],
-    "topRow": 40,
-    "bottomRow": 74,
+    "topRow": 41,
+    "bottomRow": 75,
     "parentRowSpace": 10,
     "type": "CHART_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 25,
     "chartData": {"2stmv3qq37": {
-        "data": [
-            {
-                "x": "Product1",
-                "y": 20000
-            },
-            {
-                "x": "Product2",
-                "y": 22000
-            },
-            {
-                "x": "Product3",
-                "y": 32000
-            }
-        ],
+        "data": "[\n  {\n    \"x\": \"Client1\",\n    \"y\": 20000\n  },\n  {\n    \"x\": \"Client2\",\n    \"y\": 22000\n  },\n  {\n    \"x\": \"Client3\",\n    \"y\": 32000\n  }\n]",
         "seriesName": "2023"
     }},
     "animateLoading": true,
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 11.703125,
+    "dynamicTriggerPathList": [],
     "dynamicBindingPathList": [
         {"key": "customEChartConfig"},
         {"key": "borderRadius"},
@@ -43,7 +31,7 @@
         {"key": "accentColor"},
         {"key": "fontFamily"}
     ],
-    "leftColumn": 1,
+    "leftColumn": 0,
     "customFusionChartConfig": {
         "type": "column2d",
         "dataSource": {
@@ -96,7 +84,7 @@
     "showDataPointLabel": false,
     "key": "5fu6hxsrye",
     "isDeprecated": false,
-    "rightColumn": 31,
+    "rightColumn": 58,
     "widgetId": "c7zp4yhqcz",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "minWidth": 450,
@@ -109,10 +97,12 @@
     "isLoading": false,
     "mobileTopRow": 42,
     "responsiveBehavior": "fill",
-    "yAxisName": "Revenue($)",
-    "chartName": "Sales Report",
+    "yAxisName": "Calories",
+    "originalTopRow": 41,
+    "chartName": "Calories Burnt Since Joining",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 1,
     "xAxisName": "Product Line",
+    "originalBottomRow": 75,
     "chartType": "COLUMN_CHART"
 }

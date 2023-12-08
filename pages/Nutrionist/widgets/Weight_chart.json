@@ -1,7 +1,7 @@
 {
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-    "mobileBottomRow": 45,
-    "widgetName": "Chart1",
+    "mobileBottomRow": 99,
+    "widgetName": "Weight_chart",
     "allowScroll": false,
     "displayName": "Chart",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.8eea39845729f7f4bfadeecd3810a09d.svg",
@@ -10,32 +10,21 @@
         "visuals",
         "visualisations"
     ],
-    "topRow": 40,
-    "bottomRow": 74,
+    "topRow": 45,
+    "bottomRow": 77,
     "parentRowSpace": 10,
     "type": "CHART_WIDGET",
     "hideCard": false,
-    "mobileRightColumn": 53,
-    "chartData": {"2stmv3qq37": {
-        "data": [
-            {
-                "x": "Product1",
-                "y": 20000
-            },
-            {
-                "x": "Product2",
-                "y": 22000
-            },
-            {
-                "x": "Product3",
-                "y": 32000
-            }
-        ],
-        "seriesName": "2023"
+    "mobileRightColumn": 35,
+    "chartData": {"7ymdccw35w": {
+        "data": "[\n  {\n    \"x\": \"First check\",\n    \"y\": 180\n  },\n  {\n    \"x\": \"Second check\",\n    \"y\": 175\n  },\n  {\n    \"x\": \"third check\",\n    \"y\": 160\n  }\n]",
+        "color": "#ef4444",
+        "seriesName": ""
     }},
     "animateLoading": true,
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-    "parentColumnSpace": 11.703125,
+    "parentColumnSpace": 8.46875,
+    "dynamicTriggerPathList": [],
     "dynamicBindingPathList": [
         {"key": "customEChartConfig"},
         {"key": "borderRadius"},
@@ -43,7 +32,7 @@
         {"key": "accentColor"},
         {"key": "fontFamily"}
     ],
-    "leftColumn": 32,
+    "leftColumn": 6,
     "customFusionChartConfig": {
         "type": "column2d",
         "dataSource": {
@@ -94,10 +83,10 @@
     "customEChartConfig": "{{\n{\n  \"dataset\": {\n    \"source\": [\n      [\n        \"Day\",\n        \"Baidu\",\n        \"Google\",\n        \"Bing\"\n      ],\n      [\n        \"Mon\",\n        620,\n        120,\n        60\n      ],\n      [\n        \"Tue\",\n        732,\n        132,\n        72\n      ],\n      [\n        \"Wed\",\n        701,\n        101,\n        71\n      ],\n      [\n        \"Thu\",\n        734,\n        134,\n        74\n      ],\n      [\n        \"Fri\",\n        1090,\n        290,\n        190\n      ],\n      [\n        \"Sat\",\n        1130,\n        230,\n        130\n      ],\n      [\n        \"Sun\",\n        1120,\n        220,\n        110\n      ]\n    ]\n  },\n  \"tooltip\": {\n    \"trigger\": \"axis\",\n    \"axisPointer\": {\n      \"type\": \"shadow\"\n    }\n  },\n  \"title\": {\n    \"text\": \"Search Engine Usage\",\n    \"left\": \"center\",\n    \"textStyle\": {\n      \"width\": 200,\n      \"overflow\": \"truncate\"\n    }\n  },\n  \"legend\": {\n    \"top\": 40,\n    \"type\": \"scroll\"\n  },\n  \"grid\": {\n    \"left\": 15,\n    \"right\": 15,\n    \"bottom\": 30,\n    \"top\": 100,\n    \"containLabel\": true\n  },\n  \"xAxis\": [\n    {\n      \"type\": \"category\"\n    }\n  ],\n  \"yAxis\": [\n    {\n      \"type\": \"value\"\n    }\n  ],\n  \"series\": [\n    {\n      \"type\": \"bar\",\n      \"stack\": \"Search Engine\"\n    },\n    {\n      \"type\": \"bar\",\n      \"stack\": \"Search Engine\"\n    },\n    {\n      \"type\": \"bar\",\n      \"stack\": \"Search Engine\"\n    }\n  ]\n}\n}}",
     "flexVerticalAlignment": "start",
     "showDataPointLabel": false,
-    "key": "5fu6hxsrye",
+    "key": "gxj67j92tq",
     "isDeprecated": false,
-    "rightColumn": 64,
-    "widgetId": "rr8fg6caxo",
+    "rightColumn": 55,
+    "widgetId": "ql6nd30v90",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "minWidth": 450,
     "isVisible": true,
@@ -107,14 +96,14 @@
     "tags": ["Display"],
     "renderMode": "CANVAS",
     "isLoading": false,
-    "mobileTopRow": 13,
+    "mobileTopRow": 67,
     "responsiveBehavior": "fill",
-    "yAxisName": "Revenue($)",
-    "originalTopRow": 41,
-    "chartName": "Sales Report",
+    "yAxisName": "Weight (lbs.)",
+    "originalTopRow": 45,
+    "chartName": "Weight progress",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 42,
-    "xAxisName": "Product Line",
-    "originalBottomRow": 75,
-    "chartType": "COLUMN_CHART"
+    "mobileLeftColumn": 11,
+    "xAxisName": "",
+    "originalBottomRow": 77,
+    "chartType": "LINE_CHART"
 }

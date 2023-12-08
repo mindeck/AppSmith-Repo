@@ -19,19 +19,17 @@
     "dynamicTriggerPathList": [],
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "dynamicBindingPathList": [
-        {"key": "text"},
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
-        {"key": "borderRadius"},
-        {"key": "text"}
+        {"key": "borderRadius"}
     ],
     "leftColumn": 16,
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "{{currentItem.id}}",
+    "text": "Started Membership: ",
     "key": "g1q0h9pmwt",
     "isDeprecated": false,
-    "rightColumn": 24,
+    "rightColumn": 59,
     "textAlign": "LEFT",
     "dynamicHeight": "FIXED",
     "widgetId": "a7hy8fzjtw",

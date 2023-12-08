@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Fitness Trainer",
-    "slug": "fitness-trainer",
+    "name": "Nutrionist",
+    "slug": "nutrionist",
     "layouts": [
       {
         "viewMode": false,
@@ -13,14 +13,14 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 750,
+          "bottomRow": 770,
           "containerStyle": "none",
-          "snapRows": 61,
+          "snapRows": 78,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 630,
+          "minHeight": 800,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -28,7 +28,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Fitness Trainer",
+        "id": "Nutrionist",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -39,5 +39,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "65724d38a1f78e35c8c8b91e_65724e7f56d4b3780f9284fe"
+  "gitSyncId": "657127f0ec1bd972dbf9c78a_65725bc1d9db7c3fed1f6f93"
 }

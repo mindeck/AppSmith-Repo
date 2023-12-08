@@ -7,6 +7,10 @@
     {
       "id": "Fitness Trainer",
       "isDefault": false
+    },
+    {
+      "id": "Nutrionist",
+      "isDefault": false
     }
   ],
   "viewMode": false,
